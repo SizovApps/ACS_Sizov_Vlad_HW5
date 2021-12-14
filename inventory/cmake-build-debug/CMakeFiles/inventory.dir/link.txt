@@ -1,0 +1,1 @@
+/usr/local/Cellar/gcc/11.2.0/bin/g++-11 -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/inventory.dir/main.cpp.o CMakeFiles/inventory.dir/Inventory.cpp.o CMakeFiles/inventory.dir/Box.cpp.o -o inventory 

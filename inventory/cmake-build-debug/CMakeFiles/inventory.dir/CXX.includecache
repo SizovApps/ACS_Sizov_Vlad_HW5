@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/user/CLionProjects/inventory/Box.cpp
+Box.h
+/Users/user/CLionProjects/inventory/Box.h
+
+/Users/user/CLionProjects/inventory/Box.h
+cstdlib
+-
+iostream
+-
+
+/Users/user/CLionProjects/inventory/Inventory.cpp
+Inventory.h
+/Users/user/CLionProjects/inventory/Inventory.h
+
+/Users/user/CLionProjects/inventory/Inventory.h
+cstdlib
+-
+iostream
+-
+thread
+-
+mutex
+-
+Box.h
+/Users/user/CLionProjects/inventory/Box.h
+
+/Users/user/CLionProjects/inventory/main.cpp
+iostream
+-
+thread
+-
+Inventory.h
+/Users/user/CLionProjects/inventory/Inventory.h
+
